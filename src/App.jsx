@@ -26,6 +26,9 @@ function App() {
     <p>Selamat Pagi</p>
     <p>Saldo Awal Kartu Kantin: Rp {(N * 1000).toLocaleString('id-ID')}</p>
     <p>{jam < 12 ? "Selamat Pagi" : "Selamat Siang"}</p>
+    <panel judul = "menu hari ini">
+      <button on onClick={balikUrutan}>balikUrutan</button>
+    </panel>
     <button disabled>Bayar</button>
     </>
   )
